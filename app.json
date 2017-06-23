@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "entry": "home",
+      "title": "首页",
+      "cdn": {}
+    },
+    {
+      "entry": "admin",
+      "title": "后台",
+      "cdn": {}
+    }
+  ],
+  "basePath": "./src/pages/",
+  "cdn": {
+    "js": [
+      "https://cdn.bootcss.com/vue/2.3.4/vue.min.js",
+      "https://cdn.bootcss.com/vuex/2.3.1/vuex.min.js"
+    ],
+    "css": []
+  },
+  "externals": {
+    "vue": "Vue",
+    "vuex": "Vuex"
+  }
+}
