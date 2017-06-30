@@ -15,13 +15,13 @@ cooking.set({
   // production
   clean: true,
   hash: true,
-  // sourceMap: true,
+  sourceMap: true,
   minimize: true,
   chunk: true, // see https://cookingjs.github.io/zh-cn/configuration.html#chunk
   postcss: [
     // require('...')
   ],
-  publicPath: '/', //这里不写刚刚好，因为在定义名字的时候在前面加了一个static
+  publicPath: '/', //这里不写刚刚好，因为在定义名字的时候在前面加了一个publishStatic
   // assetsPath: 'static',
   urlLoaderLimit: 10000,
   static: true,//就是会拷贝当前static目录到dist目录下面
